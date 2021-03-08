@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Nav bar adapted from bootstrap documentation at https://getbootstrap.com/docs/5.0/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg navbar-light .bg-body">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://store.google.com/GB?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB"
+                >Store</a
+              >
+            </li>
+          </ul>
+          <span class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+          <div class="text-center">
+            <img src="images/GoogleImages.png" id="imgimg" alt="google logo" />
+            <form action="http://images.google.com/images">
+              <div class="input-group mb-4">
+                <span class="input-group-text" id="basic-addon1">🔍</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="q"
+                  id="searchbar"
+                />
+              </div>
+              <input type="submit" value="Image Search" class="btn btn-light" />
+            </form>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </body>
+</html>
